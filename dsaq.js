@@ -155,19 +155,68 @@
 // 8. Two Sum Problem Target sum
 
 
-let arr = [2, 7, 11, 15];
-let target = 9;
+// let arr = [2, 7, 11, 15];
+// let target = 9;
 
-let map = new Map();
+// let map = new Map();
 
-for (let i = 0; i < arr.length; i++) {
+// for (let i = 0; i < arr.length; i++) {
 
-    let required = target - arr[i];
+//     let required = target - arr[i];
 
-    if (map.has(required)) {
-        console.log([map.get(required), i]);
-        break;
-    }
+//     if (map.has(required)) {
+//         console.log([map.get(required), i]);
+//         break;
+//     }
 
-    map.set(arr[i], i);
-}
+//     map.set(arr[i], i);
+// }
+
+
+// 9. Flatten Nested Array
+
+
+// function flatten(arr){
+//     let result=[]
+//     for (var item of arr){
+//         if(Array.isArray(item)){
+//           result=  result.concat(flatten(item))
+//         }
+//         else{
+//         result.push(item)
+//         }
+//     }
+
+//     return result
+// }
+
+// console.log(flatten([1,[2,[3,4]],5]));
+
+
+
+// 10. Find Missing Number
+
+
+// let arr = [1, 2, 3, 5];
+
+// let n = 5;
+
+// let expected = n * (n + 1) / 2;
+
+// let actual = arr.reduce((sum, num) => sum + num, 0);
+
+// console.log(expected - actual);
+
+
+
+// 11. Longest Consecutive 1s
+
+let arr = [1, 1, 0, 1, 1, 1];
+
+let count = 0;
+let max = 0;
+
+
+for(var item of arr)
+
+    if
