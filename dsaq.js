@@ -86,17 +86,39 @@
 
 // Find how many times each number occurs.
 
-const arr = [1, 2, 2, 3, 1, 2];
+// const arr = [1, 2, 2, 3, 1, 2];
 
-let obj={}
+// let obj={}
 
-for(let item of arr){
-    if(obj[item]){
-        obj[item]=obj[item]+1
-    }
-    else{
-        obj[item] =1
-    }
-}
+// for(let item of arr){
+//     if(obj[item]){
+//         obj[item]=obj[item]+1
+//     }
+//     else{
+//         obj[item] =1
+//     }
+// }
 
-console.log(obj);
+// console.log(obj);
+
+
+// Find Duplicates
+
+
+// const arr=[1, 2, 3, 2, 4, 1, 5]
+// let frequency ={}
+// let duplicate =[]
+
+// for(let item of arr){
+//     frequency[item]= (frequency[item] || 0) +1
+// }
+
+// console.log(frequency);
+
+// for (let item in frequency){
+//     if(frequency[item]>1){
+//         duplicate.push(Number(item))
+//     }
+// }
+
+// console.log(duplicate);
