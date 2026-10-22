@@ -299,7 +299,7 @@
 
 // const arrs = [1, 2, 3, 5, 6];
 
-// let n= n*(n+1)/2
+// let n= arr.length +1
 // let actual =0
 // for (let item of arrs){
 //     actual=item+actual
